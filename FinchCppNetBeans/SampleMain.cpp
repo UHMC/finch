@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
         
         ls=finch.getLightSensors();
         //cout<<ls[0]<<" "<<ls[1]<<endl;
-    }while(ls[0]>50&&ls[1]>50);
+    }while(ls[0]>30&&ls[1]>30);
 
     return 0;
 }
